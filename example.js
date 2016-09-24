@@ -7,7 +7,7 @@ var doc = require('dynamodb-doc');
 var dynamo = new doc.DynamoDB();
 
 exports.handler = (event, context, callback) => {
-    var tableName = "test3";
+    var tableName = "InsertTableNameHere";
 
     var item = {
         id: new Date().getTime().toString(),
